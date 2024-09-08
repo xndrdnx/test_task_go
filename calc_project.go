@@ -27,7 +27,7 @@ func main() {
 	for scanner.Scan() {
 		input := scanner.Text()
 		result := calc(input)
-		fmt.Println("Результат: ", result)
+		fmt.Println("Результат:", result)
 		fmt.Print("Введите выражение: ")
 	}
 }
